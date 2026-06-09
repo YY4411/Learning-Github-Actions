@@ -22,6 +22,6 @@ jobs:
       - name: Running multi commands
         run: |
           echo "Hi from Furkan"
-          echo "Current time is 'date'"
+          echo "Current time is $(date)"
           sleep 20
           
