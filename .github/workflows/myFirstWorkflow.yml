@@ -19,7 +19,7 @@ jobs:
           echo 'pwd' >> myartifact.txt
           mkdir artifacts
           echo 'ls -ltr' >> list.txt
-          echo 'hostname' >> hostname.txt
+          echo 'hostname' >> artifacts/hostname.txt
       - name: Upload Single File
         uses: actions/upload-artifact@v7.0.1
         with:
